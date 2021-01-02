@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h2>HTML input attributes</h2>
+
+<form id="form1">
+	<label>name: </label>
+	<input type="text" required name="name">
+	
+	<br><input type="submit" value="save">
+	
+	<br><input type="submit" value="save in different" formaction="001_html.html">
+	
+	<br><input type="submit" value="save as post method" formmethod="post">
+	
+	<br><input type="submit" value="target as blank" formtarget="_blank">
+	<br><input type="submit" value="submit with novalidate" formnovalidate>
+	
+</form>
+<label>outoftheform</label>
+<input type="text" value="venkat" name="name" form="form1">
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+</html>

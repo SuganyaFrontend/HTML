@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h2>HTML Forms</h2>
+
+
+
+<form>
+	<fieldset>
+		<legend>Form</legend>
+			<fieldset>
+		<legend>bsics</legend>
+		<label>Name: </label>
+	<input type="text" name="Name" value="sugu"><br>
+	<label>how many car dou you have: </label>
+	<select name="car">
+		<option value="1">one</option>
+		<option value="2">two</option>
+		<option value="3" selected>three</option>
+		<option value="4">four</option>
+	</select><br>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Advance</legend>
+			<label>choose your qualification: </label>
+	<select name="qualification" size="3" multiple>
+		<option value="1">10th</option>
+		<option value="2">12th</option>
+		<option value="3">B.Sc</option>th</option>
+		<option value="4">M.Sc</option></option>
+		<option value="5">PhD</option>
+	</select>
+	<br><label>enter a poem</label>
+	<textarea name="poem" rows="10" cols="50"></textarea>
+	<br>
+	</fieldset>
+
+	<h2>this is button</h2>
+	<button type="button" onclick="alert('hi venky')">click this</button>
+	<br><br><input type="submit" value="save2">
+	</fieldset>
+</form>
+	
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h2>HTML input attributes</h2>
+
+<form method="post">
+	<label>Name: </label>
+	<input type="text" name="Name" value="sugu"><br>
+	
+	<label>Name readonly: </label>
+	<input type="text" name="NameReadonly" readonly value="sugu"><br>
+	
+	<label>Namedisable: </label>
+	<input type="text" name="Namedisable" disabled value="sugu"><br>
+	
+	<label>pin: </label>
+	<input type="text" name="pin" size="50" maxlength="4" value="sugu"><br>
+	
+	<label>minmax: </label>
+	<input type="range" name="minmax" min="2" max="10" value="sugu"><br>
+	
+	<label>multiple: </label>
+	<input type="file" name="file" multiple><br>
+	
+	<label>patternName: </label>
+	<input type="text" name="patternName" placeholder="abc" pattern="[a-zA-Z]{3}"><br>
+	
+	<label>requireName: </label>
+	<input type="text" name="requireName" required><br>
+	
+	<label>Namstep: </label>
+	<input type="number" name="Namestep" step="4" ><br>
+	
+	<label>autofocus: </label>
+	<input type="text" name="autofocus" autofocus value="sugu"><br>
+	
+	<input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+	
+	<br><input type="submit" value="save">
+</form>
+
+<for
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+</html>

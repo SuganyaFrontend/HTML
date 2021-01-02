@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h2>HTML Forms</h2>
+
+
+
+<form method="post">
+	<fieldset>
+		<legend>sign in</legend>
+		<label>username: </label>
+		<input type="text" name="username"><br><br>
+		<label>password: </label>
+		<input type="password" name="password"><br><br>
+	</fieldset>
+	<fieldset>
+		<legend>enter your age</legend>
+		<label>enter your age1: </label>
+		5<input type="range" min="5" max="110" name="age1" oninput="c.value=parseInt(age1.value)">110=><output name="c"></output><br><br>
+		<label>enter your age2: </label>
+		<input type="number" min="0" max="55" name="age2"><br><br>
+	</fieldset>
+	<fieldset>
+		<legend>enter yout date birth</legend>
+		<label>enter date of birth: </label>
+		<input type="date" name="dob"><br><br>
+		<label>enter your birth time: </label>
+		<input type="datetime-local" name="bt"><br><br>
+		<label>enter your month</label>
+		<input type="month" name="mon"><br><br>
+		<label>enter your time: </label>
+		<input type="time" name="time"><br><br>
+		<label>enter your week: </label>
+		<input type="week" name="week"><br><br>
+	</fieldset>
+	<fieldset>
+		<legend>enter favourite color</legend>
+		<label>enter favourite color: </label>
+		<input type="color" name="color"><br><br>
+		<label>enter your emailid: </label>
+		<input type="email" name="mail"><br><br>
+		<label>enter your month</label>
+		<input type="file" name="file"><br><br>
+		<label>hidden input: </label>
+		<input type="hidden" name="hid"><br><br>
+		<label>image</label>
+		<input type="image" name="img" value="..\..\img\example_img_girl.jpg"><br><br>
+	</fieldset>
+	<label>enter your website</label>
+	<input type="url" name="url"><br><br>
+	<input type="button" onclick="alert('sugu baby')" value="ghjgh"><br><br>
+	<input type="reset"><br><br>
+	<label>enter number: </label>
+	<input type="tel" name="number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+	<small>Format: 123-45-678</small><br><br>
+	<label>enter number2: </label>
+	<input type="tel" name="number" pattern="[0-9]{10}">
+	<small>Format: +91-1234567890</small><br><br>
+	<br><br>
+	<input type="submit" value="save">
+</form>
+	
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+</html>

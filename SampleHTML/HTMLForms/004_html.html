@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h2>HTML Forms</h2>
+
+
+
+<form oninput="c.value=parseInt(a.value)+parseInt(b.value)">
+	<input name="count" list="dataid">
+	<input name="count2" list="dataid">
+	
+	<datalist id="dataid">
+		<option value="1">
+		<option value="2">
+		<option value="3">
+	</datalist><br>
+	0
+	<input name="a" type="range" value="50">100<br>
+	<input name="b" type="number" value="50"><br>
+	<output name="c"></output>
+</form>
+	
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+</html>
